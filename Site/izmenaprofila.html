@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Korisnicki profil</title>
+	<script src="../js/izmenaprofila.js"></script>
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<link rel="shortcut icon" type="image/png" href="../slike/favicon.png"/>
+</head>
+
+<body>
+
+<div style="padding:20px;"></div>
+
+<ul> 
+	<li><a href="index.html">Pocetna</a></li>
+	<li><a href="dodaj.html">Postavi oglas</a></li>
+	<li style="float:right;"><a href="indexl.html">Odjavi se</a></li>
+	<a href="profil.html"><img src="../slike/profilna.png" alt="Profil"></a>
+	<div class="profil"><li style="float:right"><a href="profil.html">Profil</a></li></div>
+	<li class="dropdown">
+    <a>Kategorije</a>
+    <div class="dropdown-content">
+	<a href="kategorije.html">Telefoni</a>
+	<a href="kategorije.html">Racunarska oprema</a>
+	<a href="kategorije.html">Sportska oprema</a>
+	<a href="kategorije.html">Satovi</a>
+	<a href="kategorije.html">Ostalo</a>
+</ul>
+
+<div id="korisnickaforma">
+<form action="" method="post">
+        <h3>Korisnicke informacije</h3>
+        <form>
+        Dodaj sliku:<br><br>
+        	<input type="file" id="avatar" accept="image/*" required=""><br><br>
+		Ime:<br>
+            <input type="text" id="ime" required=""><br><br>
+		Prezime:<br>
+            <input type="text" id="prezime" required=""><br><br>
+		Email:<br>
+            <input type="text" id="email" required=""><br><br>
+		Adresa:<br>
+			<input type="text" id="adresa" required=""><br><br>
+        Broj telefona:<br>
+            <input type="text" id="broj" required=""><br><br>
+		Datum rodjenja:<br>
+			<input type="date" id="datum" required=""><br><br>
+		Pol:<br>
+		<select id="pol" required="">
+			<option value="Ostalo">Ostalo</option>
+			<option value="Muski">Muski</option>
+			<option value="Zenski">Zenski</option>
+		</select><br><br>
+        Lozinka:<br>
+            <input id="lozinka" type="password" required=""><br><br>
+        Potvrdi lozinku:<br>
+            <input id="potvrdi" type="password" required=""><br><br>
+            <button onclick="sacuvajIzmene();" >Sacuvaj izmene</button><br><br>
+        </form>
+</div>
+</form>
+
+</body>
+</html>

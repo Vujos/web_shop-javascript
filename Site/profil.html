@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Korisnicki profil</title>
+	<script src="../js/izmenaprofila.js"></script>
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<link rel="shortcut icon" type="image/png" href="../slike/favicon.png"/>
+</head>
+
+<body onload="loadProfil()">
+
+<div style="padding:20px;"></div>
+
+<ul> 
+	<li><a href="index.html">Pocetna</a></li>
+	<li><a href="dodaj.html">Postavi oglas</a></li>
+	<li style="float:right;"><a href="indexl.html">Odjavi se</a></li>
+	<a href="profil.html"><img src="../slike/profilna.png" alt="Profil"></a>
+	<div class="profil"><li style="float:right"><a href="profil.html">Profil</a></li></div>
+	<li class="dropdown">
+    <a>Kategorije</a>
+    <div class="dropdown-content">
+	<a href="kategorije.html">Telefoni</a>
+	<a href="kategorije.html">Racunarska oprema</a>
+	<a href="kategorije.html">Sportska oprema</a>
+	<a href="kategorije.html">Satovi</a>
+	<a href="kategorije.html">Ostalo</a>
+</ul>
+
+<div id="korisnickaforma">
+		<img src="../oglasi/gitara.png" alt=avatar id="avatar"/>
+        <h3>Korisnicke informacije</h3>
+        <form action="izmenaprofila.html" method="post">
+		Ime:<br>
+            <input type="text" id="ime" disabled><br><br>
+		Prezime:<br>
+            <input type="text" id="prezime" disabled><br><br>
+		Korisnicko ime:<br>
+            <input type="text" id="korisnicko" disabled><br><br>
+		Email:<br>
+            <input type="text" id="email" disabled><br><br>
+		Adresa:<br>
+			<input type="text" id="adresa" disabled><br><br>
+        Broj telefona:<br>
+            <input type="text" id="broj" disabled><br><br>
+		Datum rodjenja:<br>
+			<input type="date" id="datum" disabled><br><br>
+		Pol:<br>
+			<input type="text" id="pol" disabled><br><br><br>
+            <input type="submit" value="Izmeni profil"><br><br>
+        </form>
+</div>
+
+</body>
+</html>

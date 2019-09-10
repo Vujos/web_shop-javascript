@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<meta charset="UTF-8">
+	<title>Prijavi se</title>
+	<script src="../js/reg.js"></script>
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<link rel="shortcut icon" type="image/png" href="../slike/favicon.png"/>
+</head>
+ 
+<body>
+
+<div style="padding:20px;"></div>
+
+<ul> 
+	<li><a href="indexl.html">Pocetna</a></li>
+	<li><a href="reg.html">Registruj se</a></li>
+	<li><a href="login.html">Prijavi se</a></li>
+</ul>
+
+<div class="log">
+		<form action="" method="post">
+				<input type="text" id="korisnicko" placeholder="Korisnicko ime" required=""> <br> <br>
+				<input type="text" id="ime" placeholder="Ime" required=""> <br> <br>
+				<input type="text" id="prezime" placeholder="Prezime" required=""> <br> <br>
+				<input type="text" id="email" placeholder="Email" required=""> <br> <br>
+				<input type="text" id="adresa" placeholder="Adresa" required=""> <br> <br>
+				<input type="text" id="broj" placeholder="Broj telefona" required=""> <br> <br>
+				<input type="date" id="datum" placeholder="Datum" required=""> <br> <br>
+				Pol:<br>
+					<select id="pol">
+					<option value="Ostalo">Ostalo</option>
+					<option value="Muski">Muski</option>
+					<option value="Zenski">Zenski</option>
+				</select><br><br>
+				<input type="password" id="lozinka" placeholder="Lozinka" required=""> <br> <br>
+				<input type="password" id="potvrdi" placeholder="Ponovi lozinku" required=""> <br> <br>
+				<input type="file" id="avatar" accept="image/*"><br><br>
+				<button onclick="dodajKorisnika();" >Registruj se</button>
+		</form>
+</div>
+ 
+</body>
+</html>

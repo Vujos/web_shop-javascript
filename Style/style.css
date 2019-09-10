@@ -1,0 +1,192 @@
+body {
+	margin: 0;
+	color: white;
+	background-image: url(../slike/pozadina.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-weight: bold;
+}  
+
+input {
+	height: 45px;
+	width: 300px;
+	font-size: 20px;
+	background-color: transparent;
+	text-align: center;
+	border-color: white;
+	border-radius: 6px;
+	color: white;
+}
+
+input[type=search] {
+	border-style: solid;
+	width: 200px;
+	height: 46px;
+	border-right: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+	border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+input[type=radio] {
+    padding: 20px 20px 20px 5px;
+	height: 20px;
+	width: 20px;
+}
+ 
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+	background-color: white;
+	color: black;
+}
+
+ul {
+	top: 0;
+	position: fixed;
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+ 
+ul a img {	
+	border-left: 0px;
+    border-style: solid;
+	border-color: white;
+	float:right;
+	height:36px;
+	width:36px;
+	padding-top:4px;
+	padding-right:4px;
+	padding-left:4px;
+}  
+
+.profil li a{
+	border-right: 0px;
+	padding: 11px 16px;
+    border-style: solid;
+	border-color: white;
+}
+
+.profil li a:hover {
+	background-color:black;
+	color: white;
+}
+
+.dropdown-content a {
+    display: block;
+}
+  
+.dropdown-content {
+	width: 105px;
+    display: none;
+    position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	background-color: black;
+}
+
+.log {
+	width: 500px;
+	height: 500px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 90px;
+} 
+
+.slika {
+   width: 250px;
+   height:100%;
+}
+
+.naslov, .cena{
+	font-size: 18px;
+    text-align: center;
+	background-color: black;
+	font-weight: bold; 
+	color: white;
+}
+
+.kvalitet {
+	font-size: 18px;
+    text-align: center;
+	background-color: white;
+	font-weight: bold;
+	color: black;
+}
+
+.oglasi {
+	margin-top: 5px;
+	margin-bottom: 30px;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+.oglas {
+	   display: inline-block;
+}
+
+.oglas, #oglas {
+	text-align: center;
+	margin: 20px 20px 20px 20px;
+}
+
+#searchbtn{
+	height: 46px;
+	background-color: transparent;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+	border-left: 0px;
+	border-style: solid;
+	border-color: white;
+}
+
+#korisnickaforma , #kupi{
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#kupi{
+	margin-top: 50px;
+}
+
+.ogl, .tOgl, .rOgl, .spOgl, .sOgl, .oOgl, .pOgl {
+	margin: 20px 20px 20px 20px;
+	display: inline-block;
+}
+
+.storedSlika {
+	width:225px;
+}
+
+.kvalitet {
+	font-size: 18px;
+    text-align: center;
+	background-color: white;
+	font-weight: bold;
+	color: black;
+}
+
+.cena, .naziv{
+	font-size: 18px;
+    text-align: center;
+	background-color: black;
+	font-weight: bold; 
+	color: white;
+}

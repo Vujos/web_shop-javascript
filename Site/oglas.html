@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>oglas</title>
+	<script src="../js/dodaj.js"></script>
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<link rel="shortcut icon" type="image/png" href="../slike/favicon.png"/>
+</head>
+
+<body onload="loadOglas();">
+
+<div style="padding:20px;"></div>
+
+<ul> 
+	<li><a href="index.html">Pocetna</a></li>
+	<li><a href="dodaj.html">Postavi oglas</a></li>
+	<li style="float:right;"><a href="indexl.html">Odjavi se</a></li>
+	<a href="profil.html"><img src="../slike/profilna.png" alt="Profil"></a>
+	<div class="profil"><li style="float:right"><a href="profil.html">Profil</a></li></div>
+	<li class="dropdown">
+    <a>Kategorije</a>
+    <div class="dropdown-content">
+	<a href="kategorije.html">Telefoni</a>
+	<a href="kategorije.html">Racunarska oprema</a>
+	<a href="kategorije.html">Sportska oprema</a>
+	<a href="kategorije.html">Satovi</a>
+	<a href="kategorije.html">Ostalo</a>
+</ul>
+
+<div id="oglas">
+    <img id="slika" src="" alt="slika oglasa"><br><br>
+	<form action="kupi.html" method="post">
+		Naziv proizvoda:<br>
+			<input id="naziv" type="text" disabled><br><br>
+		Kategorija proizvoda:<br>
+			<input id="kategorija" type="text" disabled=""><br><br>
+		Kolicina proizvoda:<br>	
+			<input id="kolicina" type="number" name="points" min="1" max="10" disabled><br><br>
+		Kvalitet proizvoda:<br>
+			<input id="kvalitet" type="text" disabled><br><br>
+		Dostava:<br>
+			<input id="dostava" type="text" disabled><br><br>
+		Adresa:<br>
+			<input id="adresaOglasa" type="text" disabled><br><br>
+		Broj telefona:<br>
+			<input id="brojOglasa" type="text" disabled><br><br>
+		Cena:<br>
+    		<input type="text" id="cena" disabled><br><br>
+		Opis proizvoda:<br>
+			<textarea id="opis" rows="4" cols="40" disabled></textarea><br><br>
+			<input type="submit" value="Kupi proizvod!">
+	</form>
+</div>
+
+</body>
+</html>

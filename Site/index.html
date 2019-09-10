@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>WhiteShop</title>
+	<script src="../js/dodaj.js"></script>
+	<link rel="stylesheet" type="text/css" href="../style/style.css">
+	<link rel="shortcut icon" type="image/png" href="../slike/favicon.png"/>
+</head>
+ 
+<body onload="divOglasi()">
+
+<div style="padding:20px;"></div>
+
+<ul> 
+	<li><a href="index.html">Pocetna</a></li>
+	<li><a href="dodaj.html">Postavi oglas</a></li>
+	<li style="float:right;"><a href="indexl.html">Odjavi se</a></li>
+	<a href="profil.html"><img src="../slike/profilna.png" alt="Profil"></a>
+	<div class="profil"><li style="float:right"><a href="profil.html">Profil</a></li></div>
+	<li style="float:right;"><button onclick="oglasR(),searchByTitle();" id="searchbtn"><img src="../slike/search.png" width="37px" height="37px"></button></li>
+	<input type="search" onkeyup="srchp(event)" placeholder="Pretraga..." id="search" style="float:right;">
+	<li class="dropdown">
+    <a>Kategorije</a>
+    <div class="dropdown-content">
+	<a href="kategorije.html">Telefoni</a>
+	<a href="kategorije.html">Racunarska oprema</a>
+	<a href="kategorije.html">Sportska oprema</a>
+	<a href="kategorije.html">Satovi</a>
+	<a href="kategorije.html">Ostalo</a>
+</ul>
+
+<div id="oglasi">
+</div>
+
+<div id="tOglasi">
+</div>
+
+<div id="rOglasi">
+</div>
+
+<div id="spOglasi">
+</div>
+
+<div id="sOglasi">
+</div>
+
+<div id="oOglasi">
+</div>
+
+<div id="pOglasi">
+</div>
+
+</body>
+</html>
